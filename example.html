@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Document</title>
+</head>
+<body>
+        <div>
+                等级：
+                <div id="imgs"></div>
+        </div>
+</body>
+</html>
+<script src="./qqLevel.js">
+</script>
+<script>
+  //896天
+  var timestamp = 896*2*3600;
+  var level = qqLevel.getLevel(timestamp, 2);
+  var img = qqLevel.getImg(level, [
+          './img/star_0.png',
+          './img/star.png',
+          './img/moon.png',
+          './img/sun.png',
+          './img/king.png',
+  ]);
+  console.log(img);
+  var divdom = document.getElementById('imgs');
+  divdom.innerHTML = img;
+</script>
