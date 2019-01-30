@@ -2,7 +2,7 @@
     
 **简要描述：** 
 
--根据累计时长算出等级一级等级对应的图标。
+-根据累计时长算出等级 以及 相对应的图标。
 
 **图片**
 ![](https://www.showdoc.cc/server/api/common/visitfile/sign/a34488f301fa031df3a59b9de75c68ca?showdoc=.jpg)
