@@ -31,9 +31,3 @@ var img = qqLevel.getImg(level,[
 
 调用结果：
 ![](https://www.showdoc.cc/server/api/common/visitfile/sign/4822e5105160d1f3f211a0e9d8260a0b?showdoc=.jpg)
-**备注** 
-
-- 更多返回错误代码请看首页的错误代码描述
-
-
-欢迎使用ShowDoc！
