@@ -134,9 +134,9 @@
                         //当前等级
                         var level = parseInt(Math.sqrt(day + 4) - 2);
                         //下一级所需小时
-                        var next_total_hour = (Math.pow(level + 1, 2) + 4 * (level + 1) - day) * cut;
+                        var next_total_hour = ~~((Math.pow(level + 1, 2) + 4 * (level + 1) - day) * cut);
                         //所需总小时数
-                        var str = '学习Lv: '+ level +' 级 | 在线时长: '+ timestamp/3600 +'小时 | 升级还需要'+ next_total_hour +'小时';
+                        var str = '学习Lv: '+ level +' 级 | 在线时长: '+ ~~(timestamp/3600) +'小时 | 升级还需要'+ next_total_hour +'小时';
                         return str;
                 }
                 return qqLevel;
